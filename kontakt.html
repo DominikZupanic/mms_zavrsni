@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kontakt | Auto Salon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="logo.svg" alt="Logo" height="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Početna</a></li>
+                <li class="nav-item"><a class="nav-link" href="novi-automobili.html">Novi automobili</a></li>
+                <li class="nav-item"><a class="nav-link" href="rabljena-vozila.html">Rabljena vozila</a></li>
+                <li class="nav-item"><a class="nav-link" href="financiranje.html">Financiranje</a></li>
+                <li class="nav-item"><a class="nav-link active" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h2>Kontaktirajte nas</h2>
+    <p>Slobodno nas kontaktirajte putem obrasca ili posjetite našu lokaciju.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Ime i prezime</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Poruka</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Pošalji</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h4>Naša lokacija</h4>
+            <p>Nova cesta 81a, 47300 Ogulin</p>
+            <iframe 
+                src="https://www.google.com/maps/d/u/0/embed?mid=1MUYdrmjSladgefjodDEY3A2XKCJDAfI&ehbc=2E312F&noprof=1" 
+                width="100%" height="300" style="border:0;" allowfullscreen="">
+            </iframe>
+        </div>
+    </div>
+</div>
+<table class="table table-bordered">
+    <tbody>
+        <tr>
+            <th>Adresa</th>
+            <td>Nova cesta 81a, 47300 Ogulin</td>
+        </tr>
+        <tr>
+            <th>Telefon</th>
+            <td>+385 1 234 5678</td>
+        </tr>
+        <tr>
+            <th>E-mail</th>
+            <td>dominik.zupanic@gmail.com</td>
+        </tr>
+        <tr>
+            <th>Radno vrijeme</th>
+            <td>Pon - Pet: 08:00 - 18:00 <br> Sub: 09:00 - 14:00</td>
+        </tr>
+    </tbody>
+</table>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
